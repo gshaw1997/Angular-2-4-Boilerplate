@@ -1,5 +1,7 @@
 # AngularBoilerplate
 
+Includes basic boilerplate code for a clean Angular 2/4 application with Bootstrap, jQuery, Material, & FontAwesome dependencies pre-installed.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 
 ## Development server
