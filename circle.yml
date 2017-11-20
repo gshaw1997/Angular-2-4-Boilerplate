@@ -1,0 +1,17 @@
+machine:  
+  node:
+    version: 7.6.0
+dependencies:
+  pre:
+    - npm install
+    - npm install enhanced-resolve@3.3.0
+test: 
+  override: 
+    - echo "done"
+    # - ng test
+deployment:
+  production:
+    branch: master
+    commands:
+      - ng build --prod
+      # Deployment command here
